@@ -3,9 +3,9 @@ import rss from "@astrojs/rss";
 export const get = () =>
   rss({
     // `<title>` field in output xml
-    title: "David's blog",
+    title: "Arturo's blog",
     // `<description>` field in output xml
-    description: "A startup founder's blog",
+    description: "A founder's blog",
     // base URL for RSS <item> links
     // SITE will use "site" from your project's astro.config.
     site: import.meta.env.SITE,
