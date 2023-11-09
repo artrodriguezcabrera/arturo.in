@@ -11,6 +11,6 @@ import prefetch from "@astrojs/prefetch";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://super-solstice.vercel.app/",
+  site: "https://arturo.in",
   integrations: [tailwind(), sitemap(), prefetch({ throttle: 3 })],
 });
