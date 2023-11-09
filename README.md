@@ -2,8 +2,7 @@
 
 My personal website to display blogs, work experience, and projects.
 
-Website built with Astro and publiched on GitHub Pages.
-Using the Astro Theme - Super Solstice: https://super-solstice.vercel.app/
+Website built with Astro and published on GitHub Pages.
 
 # 🤖 Tech stack
 
