@@ -14,26 +14,26 @@ const { pageTitle, description, type } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
-    <SEO
-      title={pageTitle}
-      description={description}
-      openGraph={{
-        basic: {
-          title: description,
-          type: type,
-          image: "/images/og_image.png",
-        },
-        image: {
-          alt: "An image of myself",
-        },
-      }}
-      twitter={{ creator: "@danielkinghandle" }}
-    />
-    <script
+      <!-- <SEO
+        title={pageTitle}
+        description={description}
+        openGraph={{
+          basic: {
+            title: description,
+            type: type,
+            image: "/images/og_image.png",
+          },
+          image: {
+            alt: "An image of myself",
+          },
+        }}
+        twitter={{ creator: "@danielkinghandle" }}
+      /> -->
+    <!-- <script
       defer
       data-domain="super-solstice.vercel.app"
       src="https://plausible.andreisurugiu.com/js/script.js"
-    ></script>
+    ></script> -->
   </head>
   <body
     class="h-full sm:px-8 text-primary-100 selection:bg-accent-400 selection:text-black"
